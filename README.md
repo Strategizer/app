@@ -1,5 +1,6 @@
 
-# Strategizer application
+# [Strategizer application](https://strategizer.github.io/app/)
+
 
 Strategic planning is the process of documenting and establishing a direction of your small business—by assessing both where you are and where you’re going. The strategic plan gives you a place to record your mission, vision, and values, as well as your long-term goals and the action plans you’ll use to reach them. A well-written strategic plan can play a pivotal role in your small business’s growth and success because it tells you and your employees how best to respond to opportunities and challenges. The strategic planning process can take some time, but it’s beneficial for everyone involved. As the small business owner, you’ll have a better idea of the goals and objectives you want to accomplish and a path to do that. For your employees, the process can foster an increase in productivity—contributing to the success of the business. This application helps you analyze your planning. 
 
