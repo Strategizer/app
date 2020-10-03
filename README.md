@@ -34,6 +34,10 @@ This is our first open source project and we appreciate any suggestions/reviews 
 
 This project was built using [React](https://github.com/facebook/create-react-app).
 
+## Documentation:
+- [Flow Chart](https://github.com/Strategizer/app/blob/master/docs/Strategizer.png)
+- [Figma](https://www.figma.com/proto/LOZLXXVxLznj9GBYdBW2vy/App?node-id=7%3A43&scaling=min-zoom)
+
 ## Available Scripts
 
 In the project directory, you can run:
