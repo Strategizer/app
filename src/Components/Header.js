@@ -1,13 +1,14 @@
 import React from "react";
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
-import Button from '@material-ui/core/Button';
-import {Link} from "react-router-dom";
+import { makeStyles } from "@material-ui/core/styles";
+import AppBar from "@material-ui/core/AppBar";
+import Toolbar from "@material-ui/core/Toolbar";
+import Typography from "@material-ui/core/Typography";
+import IconButton from "@material-ui/core/IconButton";
+import MenuIcon from "@material-ui/icons/Menu";
+import Button from "@material-ui/core/Button";
+import { Link } from "react-router-dom";
 
+import Logo from "../assets/strategizer.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -19,6 +20,12 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
   },
+  appBar: {
+    backgroundColor: "#4B0082",
+  },
+  logo: {
+    width: "5%",
+  },
 }));
 
 export default function Header() {
@@ -26,15 +33,30 @@ export default function Header() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" className={classes.appBar}>
         <Toolbar>
-          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" className={classes.title}>
+          <img src={Logo} className={classes.logo} />
+          <Typography variant="h3" className={classes.title}>
             Strategizer
           </Typography>
-          <Button color="inherit"><Link style={{color: 'white'}} to="/about">About Us </Link></Button>
+          <Button color="inherit">
+            <Link style={{ color: "white" }} to="/about">
+              About Us{" "}
+            </Link>
+          </Button>
+          <Button color="inherit">
+            <Link style={{ color: "white" }} to="/contributors">
+              Contributors
+            </Link>
+          </Button>
+          <IconButton
+            edge="start"
+            className={classes.menuButton}
+            color="inherit"
+            aria-label="menu"
+          >
+            <MenuIcon />
+          </IconButton>
         </Toolbar>
       </AppBar>
     </div>
