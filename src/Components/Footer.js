@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div>
+    
       <span style={{ float: "left" }}>
         <Typography variant="h6">
           <a
@@ -15,12 +16,10 @@ function Footer() {
           </a>
         </Typography>
       </span>
-      {
-        //<span  style={{float : 'right'}}>
-        //<Typography variant="h6">
-        //<Link style={{textDecoration: 'none'}} to="/contributors">Contributors</Link>
-        //</Typography></span>
-      }
+      <span  style={{float : 'right'}}>
+    <Typography variant="h6">
+      <Link style={{textDecoration: 'none'}} to="/contributors">Contributors</Link>
+    </Typography></span>
     </div>
   );
 }
