@@ -25,7 +25,7 @@ Anyone can contiribute to this repositry
 ## Alpha release
 
 <ul>
-<li> We are planning to release an alpha version of the app by 15th Oct 2020.</li>
+<li> We are planning to release an alpha version of the app SOON (currently the app structure and the analysis logic is under discussion)</li>
 </ul>
 
 
