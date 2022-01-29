@@ -30,7 +30,7 @@ Anyone can contiribute to this repositry
 
 
 ## Contact Us
-This is our first open source project and we appreciate any suggestions/reviews so please feel free to contact us on codebrewerio@gmail.com
+This is our first open source project and we appreciate any suggestions/reviews so please feel free to contact us.  
 
 This project was built using [React](https://github.com/facebook/create-react-app).
 
